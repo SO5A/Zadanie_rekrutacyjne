@@ -1,0 +1,111 @@
+.box{
+    width: 0;
+    transition-property: width;
+    transition-duration: 1.5s;
+}
+
+.box-open{
+    width: 280px;
+}
+
+.searchbox {
+  position: relative;
+  height: 30px;
+  min-width: 30px;
+  overflow: hidden;
+  top: 5px;
+}
+
+.searchbox-open {
+  width: 100%;
+}
+
+.searchbox-input {
+    width: 150px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    font-family: verdana;
+    font-size: 16px;
+    right: 120px;
+    padding: 0;
+    margin: 0;
+    border: 1;
+    outline: 0;
+    border-radius: 9px;
+    border: 2px solid #1B5B31;
+    text-align: center;
+}
+
+.searchbox-icon {
+  position: absolute;
+  right: 0;
+}
+
+.searchbox-submit {
+  width: 80px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-family: verdana;
+  font-size: 16px;
+  right: 30px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background: #1B5B31;
+  visibility: hidden;
+  border-radius: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul > li {
+    position: relative;
+}
+
+
+ul > li ul {
+    padding: 0;
+    position: absolute; 
+    display: none; 
+    width: 120px; 
+    text-align: left;
+    background-color: #fcfcfc;
+}
+ul li:hover {
+    text-shadow: 0px 0px 14px rgba(22, 102, 16, 1);
+    text-decoration: underline;
+}
+ul li:hover > ul {
+    display: block;
+}
+
+ul > li ul li {
+    position: relative; 
+    height: auto;
+    z-index: 100;
+}
+
+ul > li ul li a {
+    padding: 10px 10px; 
+    color: #505050; 
+    text-decoration: none;
+    background-color: #fff;
+    display: block;
+}
+
+ul > li ul li:hover > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1B5B31;
+    z-index: 100;
+}

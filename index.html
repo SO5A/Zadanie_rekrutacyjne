@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Nowoczesna aranżacja Twojego ogrodu </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="Zadanie rekrutacyjne">
+    <meta name="author" content="Andrzej Pawlikowski">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+</head>
+
+<body>
+    <section class="section-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light section-nav-padding">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand" href="#">
+                    <img src="\img\giarddesign.png" width="115" height="19" alt="">
+                </a>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#section-offer">
+                            Oferta <img src="/img/icons/Icon.png" width="12" height="12" alt="">
+                        </a>
+                        <ul>
+                            <li><a href="#section-offer">Projekty</a></li>
+                            <li><a href="#section-offer">Wizualizacje</a></li>
+                            <li><a href="#section-offer">Realizacje</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-about-company" class="nav-link">O firmie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-our-projects" class="nav-link">Realizacje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section-footer" class="nav-link">Kontakt</a>
+                    </li>
+                    <li class="nav-item box">
+                        <form class="searchbox">
+                            <div class="box">
+                                <input type="text" placeholder="Wyszukiwarka" name="search" class="searchbox-input"
+                                    required>
+                                <input type="submit" class="searchbox-submit" value="Szukaj">
+                            </div>
+                            <img class="searchbox-icon" src="\img\icons\Icon 01.png" width="24" height="24" alt="">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+
+    <section class="section-intro" id="section-intro">
+        <!-- First Slide -->
+        <div class="intro-slides">
+            <div class="row">
+                <div class="col-md-6 text">
+                    <h1>
+                        Nowoczesna aranżacja Twojego ogrodu
+                    </h1>
+                    <h3>
+                        Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy
+                        kompleksowy
+                        zakres usługi z indywidualnym podejściem do każdego projektu.
+                    </h3>
+                    <div class="buttons">
+                        <button type="submit" class="intro-btn" id="intro-btn-left"
+                            onclick="location.href='#section-footer'">
+                            Skontaktuj się z nami
+                        </button>
+                        <button class=" intro-btn hover-zoom" id="intro-btn-right"
+                            onclick="location.href='#section-about-company'">
+                            Zobacz nasze realizacje <img src="\img\icons\Vector.png" width="16" height="16" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="intro-slides">
+            <div class="row">
+                <div class="col-md-6 text">
+                    <h1>
+                        Lorem ipsum dolor sit amet consectetuer
+                    </h1>
+                    <h3>
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                    </h3>
+                    <div class="buttons">
+                        <button class="intro-btn" id="intro-btn-left">
+                            Skontaktuj się z nami
+                        </button>
+                        <button class="intro-btn hover-zoom" id="intro-btn-right">
+                            Zobacz nasze realizacje <img src="\img\icons\Vector.png" width="16" height="16" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 img2">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-arrows">
+            <img class="left-arrow" onclick="plusDivs(-1)" src="/img/icons/LeftArrow.png" width="24" height="24" alt="">
+            <img class="right-arrow" onclick="plusDivs(1)" src="/img/icons/RightArrow.png" width="24" height="24"
+                alt="">
+        </div>
+    </section>
+
+
+
+
+    <section class="section-offer" id="section-offer">
+        <div class="row" id="offer-content">
+            <div class="col-sm-12 col-md-7">
+                <h3>Oferta</h3>
+                <h1>Działamy kompleksowo</h1>
+                <h2>Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe
+                    oraz
+                    rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym
+                    etapie
+                    posłużymy radą i wieloletnim doświadczeniem. </h2>
+            </div>
+        </div>
+        <div class="row offers">
+            <div class="col-md-12 col-lg-4">
+                <div class="card">
+                    <span class=" icon pencil-icon"></span>
+
+                    <h1>
+                        Projekty
+                    </h1>
+                    <h2>
+                        Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej
+                        przestrzeni.
+                    </h2>
+                    <button>
+                        Dowiedz się więcej &nbsp; <img src="\img\icons\Vector-right-green.png" width="16" height="16"
+                            alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="card">
+                    <span class="icon eye-icon"></span>
+                    <h1>
+                        Wizualizacje
+                    </h1>
+                    <h2>
+                        Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D.
+                    </h2>
+                    <button>
+                        Dowiedz się więcej &nbsp; <img src="\img\icons\Vector-right-green.png" width="16" height="16"
+                            alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="card">
+                    <span class="icon stars-icon"></span>
+                    <h1>
+                        Realizacje
+                    </h1>
+                    <h2>
+                        Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii.
+                    </h2>
+                    <button>
+                        Dowiedz się więcej &nbsp; <img src="\img\icons\Vector-right-green.png" width="16" height="16"
+                            alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-about-company" id="section-about-company">
+        <div class="row">
+            <div class="col-md-6 about-company-image">
+            </div>
+            <div class="col-md-6 about-company-content">
+                <h3>O firmie</h3>
+                <h1>
+                    Tworzymy <br>z <span>pasją</span>
+                </h1>
+                <h2>
+                    Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz
+                    architekci, których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza
+                    specjalizacja to przestrzenie nowoczesne, które charakteryzuje minimalizm, geometria i elegancka
+                    prostota. Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.
+                </h2>
+                <button>
+                    Poznaj nas bliżej &nbsp;
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector"
+                            d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z"
+                            fill="#F5F0EC" />
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-our-projects" id="section-our-projects">
+        <h3>Realizacje</h3>
+        <h1>Nasze <span>projekty</span></h1>
+        <div id="gallery">
+            <div id="gallery-gradient">
+                <button onclick="Collapsible()" id="collbtn">
+                    Rozwiń
+                </button>
+            </div>
+            <div class="grid">
+                <div class="gutter-sizer"></div>
+                <div class="grid-sizer"></div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item ">
+                    <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" class="fancybox"
+                        rel="ligthbox">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-social-media">
+        <div class="ractangle row">
+            <h1 class="large-title col-sm-9">Zostańmy w kontakcie! <br> Znajdziesz nas na <span>Instagramie.</span></h1>
+            <div class="col-sm-3">
+                <h3>Śledź nasze najnowsze realizacje!</h3>
+                <button>Instagram</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-footer" id="section-footer">
+        <div class="footer">
+            <div class="row justify-content-between">
+                <div class="col-sm-4 text-left">
+                    <a class="navbar-brand" href="#">
+                        <img src="\img\giarddesign-white.png" width="115" height="19" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-5 contact text-right d-flex justify-content-end align-items-center">
+                    <h3>Daj znać, co możemy dla Ciebie zrobić!</h3>
+                </div>
+                <div class="col-sm-3 contact">
+                    <button>Skontaktuj się z nami</button>
+                </div>
+            </div>
+            <hr>
+            <div class="social-icons row justify-content-between">
+                <div class="col-sm-8 row text-left">
+                    <div class="col-sm-1">
+                        <h2>Kontakt</h2>
+                    </div>
+                    <div class="col-sm-1">
+                        <h2>Instagram</h2>
+                    </div>
+                    <div class="col-sm-1">
+                        <h2>Facebook</h2>
+                    </div>
+                    <div class="col-sm-1">
+                        <h2>LinkedIn</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <h2>000-000-000 giarddesign@kontakt.pl</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between text-left rights">
+                <div class="col-sm-4">
+                    <h3>Prawa zastrzeżone © 2022</h3>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <h3 class="d-inline-block">made by:</h3>
+                    <img src="\img\logo-full-light.svg" width="113" height="23" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script src="/js/mansorySettings.js"></script>
+    <script src="/js/searchBar.js"></script>
+    <script src="/js/slider.js"></script>
+</body>
+
+</html>
